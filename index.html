@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="main.css">
+  <title>リアルタイムフィルター</title>
+</head>
+
+<body>
+  <main>
+    <div class="realtime-filter-app">
+      <h3>リアルタイムフィルター</h3>
+      <h4>入力した文字を含まない要素は非表示となります</h4>
+     <form onsubmit="return false">
+       <input class="item-search" type="text" name="filter"/>
+     </form>
+     <div class="item-area flexbox">
+       <div class="item-box">
+         <img src="images/car_coupe_white.png" alt="車 くるま kuruma"></img>
+         <p>キーワード</p>
+         <p class="item-keyword one" value="車 くるま kuruma">車 くるま kuruma</p>
+       </div>
+       <div class="item-box">
+         <img src="images/sora_aozora.png" alt="青空 あおぞら aozora"></img>
+         <p>キーワード</p>
+         <p class="item-keyword two" value="青空 あおぞら aozora">青空 あおぞら aozora</p>
+       </div>
+       <div class="item-box">
+         <img src="images/flower_asagao.png" alt="あさがお asagao"></img>
+         <p>キーワード</p>
+         <p class="item-keyword three" value="あさがお asagao">あさがお asagao</p>
+       </div>
+       <div class="item-box">
+         <img src="images/animal_uma.png" alt="馬 うま uma"></img>
+         <p>キーワード</p>
+         <p class="item-keyword four" value="馬 うま uma">馬 うま uma</p>
+       </div>
+     </div>
+    </div>
+  </main>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

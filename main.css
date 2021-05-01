@@ -1,0 +1,22 @@
+.realtime-filter-app {
+  padding: 0 5% 0; }
+  .realtime-filter-app > form .item-search {
+    width: 100%; }
+  .realtime-filter-app .flexbox {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; }
+    .realtime-filter-app .flexbox .item-box {
+      border: solid 1px #000;
+      padding: 1%;
+      width: 45%;
+      margin-top: 20px; }
+      .realtime-filter-app .flexbox .item-box > img {
+        width: 100%;
+        max-height: 200px;
+        object-fit: contain; }
+
+.hidden {
+  display: none; }
+
+/*# sourceMappingURL=main.css.map */
